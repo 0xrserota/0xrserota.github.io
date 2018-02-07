@@ -1,6 +1,6 @@
 /*********************************************
- *                 style.css                 *
- *             Main stylesheet               *
+ *                 resume.css                *
+ *             Resume stylesheet             *
  *            0xrserota.github.io            *
  *                                           *
  *           © 2018 Ravi B. Serota           *
@@ -51,20 +51,25 @@ a {
 }
 
 h1 {
+  font-family: "Roboto"
   font-size: 3.0em;
   font-weight: bold;
 }
 
 h2 {
+  font-family: "Rubik";
   font-size: 2.0em;
+  font-weight: bold;
 }
 
 h3 {
   font-size: 1.2em;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Open Sans';
+  font-weight: bold;
 }
 
 p {
+  font-family: "Open Sans";
   font-size: 1.0em;
 }
 
@@ -95,7 +100,6 @@ footer {
   padding: 25px 15px;
   background-color: #656565;
 }
-
 
 
 
