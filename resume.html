@@ -15,6 +15,43 @@
 </head>
 
 <body>
+    <div id="wrap">
+    <div id="page-header">
+      <div id="toplogo">Ravi Serota</div>
+      <div class="topnav" id="myTopnav">
+            <a id="nav_home" href="index.html">Home</a>
+            <a id="nav_resume" href="resume.html">Resume</a>
+            <a id="nav_bio" href="bio.html">Bio</a>
+
+            <a id="nav_contact" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="feature">
+      <div class="main-p">  </div>
+    </div>
+    <script src="/Users/Ravi/Desktop/node_modules/jquery/src/jquery.js"></script>
+
+
+    <script>
+      $(function() {
+
+
+        $(".navigation").on('click', function()  {
+          $(".navigation").hide(1000);
+        });
+
+        /*$(".navigation").on('click',function()  {
+          $(".navigation").  //nav tab links
+        }); */
+
+
+      });
+
+
+      </script>
+
+
 
 	<h1>RAVI SEROTA</h1>
 
@@ -80,6 +117,19 @@
         <p>Priviledge Escalation</p>
         <p>Securing Systems</p>
 
+
+ <footer>
+      <div class="social-box">
+        <h3>Social Media</h3>
+        <div class="social-btns">
+          <a href="" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
+        </div>
+      </div>
+      <p id="copyright">© Ravi Benjamin Serota 2018. All rights reserved.</p>
+
+    </footer>
 
 </body>
 </html>
