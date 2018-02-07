@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-color: #BABABA;
+  background-color: #15BDE6;
   margin:  auto;
 }
 
@@ -54,7 +54,8 @@ h2 {
 h3 {
   font-size: 1.2em;
   font-family: 'Rubik', sans-serif;
-}
+
+}  
 
 p {
   font-size: 1.0em;
@@ -118,19 +119,19 @@ footer {
 
 /* Facebook */
 .fa-facebook {
-  background: #3B5998;
+  background: #FFFFFF;
   color: white;
 }
 
 /* Twitter */
 .fa-twitter {
-  background: #55ACEE;
+  background: #FFFFFF;
   color: white;
 }
 
 /* Instagram */
 .fa-instagram {
-  background: #125688;
+  background: #FFFFFF;
   color: white;
 }
 
