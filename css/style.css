@@ -51,35 +51,62 @@ a {
 }
 
 h1 {
+  font-family: "Roboto"
   font-size: 3.0em;
   font-weight: bold;
 }
 
 h2 {
+  font-family: "Rubik";
   font-size: 2.0em;
+  font-weight: bold;
 }
 
 h3 {
   font-size: 1.2em;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Open Sans';
+  font-weight: bold;
 }
 
 p {
+  font-family: "Open Sans";
   font-size: 1.0em;
 }
 
-#wrap {
+ol {
+        list-style-type: none;
+        padding: 0;margin: 0;
+      }
+
+ol li {
+  display: inline-block;
+  margin: 4px;
+}
+
+#welcome {
+  margin: .75em .75em .75em .85em;
+  padding: ;
+  text-align: center;
+  font-size: 6.25em;
+  font-family: "Open Sans";
+  font-kerning: 5px;
+  color: black;
+}
+
+.global-wrapper {
   min-height: -webkit-calc(100% - 100px); /* Chrome */
   min-height: -moz-calc(100% - 100px); /* Firefox */
   min-height: calc(100% - 100px); /* native */
+  min-height: auto !important;
+  margin-bottom: 0;
 }
 
 #copyright {
   width: 100%;
   color: #000000;
   line-height: 0.2em;
-  padding: 5px 25px;
-  font-size: 0.7em;
+  padding: 5px 5px;
+  font-size: 0.9em;
   font-family: 'Roboto', sans-serif;
   text-align: center;
   height: inherit;
@@ -89,59 +116,11 @@ p {
 footer {
   text-align: center;
   width: 100%;
-  height: inherit; 
-  bottom: 0;
-  position: absolute;
-  padding: 25px 15px;
+  padding: 15px 0px 15px 0px;
   background-color: #656565;
+  margin: 0 auto -142px;
 }
 
-
-
-
-.social-btns > a {
-  color: #F2F2F2;
-  font-size: 1.0em;
-  font-family: 'Roboto', sans-serif;
-  padding: 0.2em 0.8em;
-} 
-
-
- /* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
+.footer, .push {
+  height:142px;
 }
-
-/* Add a hover effect if you want */
-.fa:hover {
-    opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-/* Instagram */
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-
-
