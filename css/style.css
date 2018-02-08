@@ -10,8 +10,6 @@
 
 html {
  font-family:sans-serif;
- -ms-text-size-adjust:100%;
- -webkit-text-size-adjust:100%
 }
 
 body {
@@ -24,7 +22,7 @@ body {
   font-size: 36pt;
   font-weight: bold;
   position: relative;
-  padding: 25px 5px;
+  padding: 25px 15px;
 }
 
 .topnav {
@@ -36,22 +34,28 @@ body {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px;
   text-decoration: none;
   font-size: 17px;
   font-family: 'Rubik', sans-serif;
 }
 
 .topnav a:hover {
-  background-color #ddd;
+  background-color: #aaaddd;
   color: black;
+}
+
+img {
+  vertical-align: middle;
+  margin-left: 40%;
+  padding-bottom: 20px; 
 }
 
 a {
 }
 
 h1 {
-  font-family: "Roboto"
+  font-family: "Roboto";
   font-size: 3.0em;
   font-weight: bold;
 }
@@ -73,30 +77,35 @@ p {
   font-size: 1.0em;
 }
 
-ol {
-        list-style-type: none;
-        padding: 0;margin: 0;
-      }
+#bio {
 
-ol li {
-  display: inline-block;
-  margin: 4px;
+  margin: 5px 3in 0 3in;
+  padding-top: 10px;
+  padding-bottom: 2.5in;
+  text-align: center;
+  text-align-last: left;
 }
 
-#welcome {
-  margin: .75em .75em .75em .85em;
-  padding: ;
+#me {
+  margin: 0;
+  padding: 1px;
   text-align: center;
   font-size: 6.25em;
-  font-family: "Open Sans";
-  font-kerning: 5px;
+  font-family: "Roboto";
   color: black;
 }
 
+#about-me {
+  margin-left: 1.8in;
+  margin-right: 7in;
+  text-align: center;
+  padding: 30px 5px 5px 5px;
+  font-family: "Roboto";
+  font-style: bold;
+  font-size: 25pt;
+}
+
 .global-wrapper {
-  min-height: -webkit-calc(100% - 100px); /* Chrome */
-  min-height: -moz-calc(100% - 100px); /* Firefox */
-  min-height: calc(100% - 100px); /* native */
   min-height: auto !important;
   margin-bottom: 0;
 }
@@ -114,13 +123,10 @@ ol li {
 }
 
 footer {
+  position: absolute;
   text-align: center;
   width: 100%;
   padding: 15px 0px 15px 0px;
   background-color: #656565;
-  margin: 0 auto -142px;
-}
-
-.footer, .push {
-  height:142px;
+  margin: 0 
 }
